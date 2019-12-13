@@ -18,7 +18,7 @@ abstract class Vehicle
     }
 
 }
-class Land_vehicle extends Vehicle
+class land_vehicle extends Vehicle
 {
     private $fuel;
     private $transmission;
@@ -132,13 +132,13 @@ class Air_vehicles extends Vehicle
         return ' have' . $this->wheelcount . ' WHEELS';
     }
 }
-$plane = new Air_vehicles(11000,5, 23830, automat);
+$plane = new air_vehicles(11000,5, 23830, automat);
 echo "____________________" . PHP_EOL;
 echo "Boing-777 have ".  $plane->maxSpeed() . " M/H MAX SPEED" . PHP_EOL;
 echo $plane->Wheelcount() . PHP_EOL;
 echo "Boing-777 " . $plane->engine() . " engine" . PHP_EOL;
 
-class  Water_vehicles extends Vehicle
+class  water_vehicles extends Vehicle
 {
     private $fuel;
     private $transmission;
@@ -170,7 +170,7 @@ class  Water_vehicles extends Vehicle
         return ' have' . $this->wheelcount . ' WHEELS';
     }
 }
-$boat = new Water_vehicles(1135,0, 23830, automat);
+$boat = new water_vehicles(1135,0, 23830, automat);
 echo "____________________" . PHP_EOL;
 echo "Oasis of Seas have ".  $boat->maxSpeed() . " M/H MAX SPEED" . PHP_EOL;
 echo $boat->Wheelcount() . PHP_EOL;
