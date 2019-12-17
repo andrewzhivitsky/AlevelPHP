@@ -33,10 +33,5 @@ class  waterVechicles extends Vehicle
         return ' have' . $this->wheelcount . ' WHEELS';
     }
 }
-$boat = new waterVechicles(1135,0, 23830, automat);
-echo "____________________" . PHP_EOL;
-echo "Oasis of Seas have ".  $boat->maxSpeed() . " M/H MAX SPEED" . PHP_EOL;
-echo $boat->Wheelcount() . PHP_EOL;
-echo "Oasis of Seas " . $boat->engine() . " engine" . PHP_EOL;
 
 

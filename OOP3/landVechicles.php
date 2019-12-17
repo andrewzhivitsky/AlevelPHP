@@ -76,7 +76,3 @@ $this->horsepower = $horsepower;
 
 
 }
-$car = new landVechicles(755,4, 70, automat);
-echo "Car have ".  $car->maxSpeed() . " M/H MAX SPEED" . PHP_EOL;
-echo $car->Wheelcount() . PHP_EOL;
-echo "Car " . $car->engine() . " engine" . PHP_EOL;

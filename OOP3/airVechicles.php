@@ -31,9 +31,5 @@ class airVechicles extends Vehicle
         return ' have' . $this->wheelcount . ' WHEELS';
     }
 }
-$plane = new airVechicles(11000,5, 23830, automat);
-echo "____________________" . PHP_EOL;
-echo "Boing-777 have ".  $plane->maxSpeed() . " M/H MAX SPEED" . PHP_EOL;
-echo $plane->Wheelcount() . PHP_EOL;
-echo "Boing-777 " . $plane->engine() . " engine" . PHP_EOL;
+
 
